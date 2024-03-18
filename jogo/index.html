@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <title>Jogo do Sonic</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <div id="game"> <!--Div que contém todos os elementos do jogo -->
+            <div class="iniciar"><!-- Contém o botão para iniciar o jogo -->
+                <button id="inicio">Inicio
+                    <div class="brilho"></div>
+                </button>
+            </div>
+            <div id="persona"><img id="img" src="./Imagens/sonic.gif" width="88px"></div> <!--Personagem -->
+            <div id="vilao"><img src="./Imagens/rocha.png" width="90px"></div> <!-- Rocha -->
+            <div id="grama"><img src="./Imagens/grama.png"></div> <!-- Grama para organizar os elementos na pagina-->
+            <div id="nuvens"><img src="./Imagens/clouds.png" height="100px"></div> <!-- Nuvens-->
+            <div class="time"> <!-- Contém o cronometro-->
+                <p>Time: <span>0.0</span></p>
+            </div>
+            <button id="reloud">Reiniciar <!-- Contém o botton para recarregar a página-->
+                <div class="brilho"></div>
+            </button>
+            <div class="texto"> <!-- Autor do programa-->
+                <h3>Gitub:@clarapmorais</h3>
+            </div>
+        </div>
+    </main>
+    <script src="idk.js"></script>
+</body>
+</html>
